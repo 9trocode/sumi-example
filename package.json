@@ -1,0 +1,13 @@
+{
+  "name": "sumi-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch src/server.ts --hot"
+  },
+  "dependencies": {
+    "@bethel-nz/sumi": "^0.3.2",
+    "hono": "^4.8.12",
+    "zod": "^4.0.14"
+  }
+}
