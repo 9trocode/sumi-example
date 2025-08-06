@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "bun run --watch src/server.ts --hot"
+    "dev": "bun run --watch src/server.ts --hot",
+    "start": "bun run src/server.ts"
   },
   "dependencies": {
     "@bethel-nz/sumi": "^0.3.2",
